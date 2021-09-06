@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA998BCB2691B21200CDA71E /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA998BCA2691B21200CDA71E /* DetailCell.swift */; };
 		FAB0108A26905B6F00AAC4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0108926905B6F00AAC4EE /* AppDelegate.swift */; };
 		FAB0108C26905B6F00AAC4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB0108B26905B6F00AAC4EE /* SceneDelegate.swift */; };
 		FAB0109126905B6F00AAC4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0108F26905B6F00AAC4EE /* Main.storyboard */; };
 		FAB0109326905B7300AAC4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0109226905B7300AAC4EE /* Assets.xcassets */; };
 		FAB0109626905B7300AAC4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0109426905B7300AAC4EE /* LaunchScreen.storyboard */; };
 		FAB010A22690616800AAC4EE /* PersonListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB010A12690616800AAC4EE /* PersonListTVC.swift */; };
-		FAB010A4269061B300AAC4EE /* DetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB010A3269061B300AAC4EE /* DetailTVC.swift */; };
 		FAB010A6269061EC00AAC4EE /* DetailPersonListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB010A5269061EC00AAC4EE /* DetailPersonListTVC.swift */; };
+		FAB010A82691A62300AAC4EE /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB010A72691A62300AAC4EE /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA998BCA2691B21200CDA71E /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
 		FAB0108626905B6F00AAC4EE /* HW15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW15.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0108926905B6F00AAC4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB0108B26905B6F00AAC4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +28,8 @@
 		FAB0109526905B7300AAC4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB0109726905B7300AAC4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB010A12690616800AAC4EE /* PersonListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListTVC.swift; sourceTree = "<group>"; };
-		FAB010A3269061B300AAC4EE /* DetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTVC.swift; sourceTree = "<group>"; };
 		FAB010A5269061EC00AAC4EE /* DetailPersonListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonListTVC.swift; sourceTree = "<group>"; };
+		FAB010A72691A62300AAC4EE /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				FAB010A12690616800AAC4EE /* PersonListTVC.swift */,
-				FAB010A3269061B300AAC4EE /* DetailTVC.swift */,
 				FAB010A5269061EC00AAC4EE /* DetailPersonListTVC.swift */,
+				FAB010A72691A62300AAC4EE /* DetailVC.swift */,
+				FA998BCA2691B21200CDA71E /* DetailCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,9 +180,10 @@
 			files = (
 				FAB010A22690616800AAC4EE /* PersonListTVC.swift in Sources */,
 				FAB010A6269061EC00AAC4EE /* DetailPersonListTVC.swift in Sources */,
+				FA998BCB2691B21200CDA71E /* DetailCell.swift in Sources */,
 				FAB0108A26905B6F00AAC4EE /* AppDelegate.swift in Sources */,
-				FAB010A4269061B300AAC4EE /* DetailTVC.swift in Sources */,
 				FAB0108C26905B6F00AAC4EE /* SceneDelegate.swift in Sources */,
+				FAB010A82691A62300AAC4EE /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
